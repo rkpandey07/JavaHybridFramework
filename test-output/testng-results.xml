@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows ::5]]>
+    </line>
+    <line>
+      <![CDATA[Supplier addded::Supplier-00000004093   Supplier-00000004093]]>
+    </line>
+    <line>
+      <![CDATA[Supplier addded::Supplier-00000004094   Supplier-00000004094]]>
+    </line>
+    <line>
+      <![CDATA[Supplier addded::Supplier-00000004095   Supplier-00000004095]]>
+    </line>
+    <line>
+      <![CDATA[Supplier addded::Supplier-00000004096   Supplier-00000004096]]>
+    </line>
+    <line>
+      <![CDATA[Supplier addded::Supplier-00000004097   Supplier-00000004097]]>
+    </line>
+    <line>
+      <![CDATA[Samsung EDge8     Samsung EDge8]]>
+    </line>
+  </reporter-output>
+  <suite name="Frameworks" duration-ms="159571" started-at="2021-06-28T09:29:27Z" finished-at="2021-06-28T09:32:06Z">
+    <groups>
+    </groups>
+    <test name="DataDriven" duration-ms="64401" started-at="2021-06-28T09:29:27Z" finished-at="2021-06-28T09:30:31Z">
+      <class name="DriverFactory.DataDrivenScript">
+        <test-method status="PASS" signature="adminLogin()[pri:0, instance:DriverFactory.DataDrivenScript@91161c7]" name="adminLogin" is-config="true" duration-ms="14413" started-at="2021-06-28T09:29:27Z" finished-at="2021-06-28T09:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="addSupplier()[pri:0, instance:DriverFactory.DataDrivenScript@91161c7]" name="addSupplier" duration-ms="49732" started-at="2021-06-28T09:29:41Z" finished-at="2021-06-28T09:30:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows ::5]]>
+            </line>
+            <line>
+              <![CDATA[Supplier addded::Supplier-00000004093   Supplier-00000004093]]>
+            </line>
+            <line>
+              <![CDATA[Supplier addded::Supplier-00000004094   Supplier-00000004094]]>
+            </line>
+            <line>
+              <![CDATA[Supplier addded::Supplier-00000004095   Supplier-00000004095]]>
+            </line>
+            <line>
+              <![CDATA[Supplier addded::Supplier-00000004096   Supplier-00000004096]]>
+            </line>
+            <line>
+              <![CDATA[Supplier addded::Supplier-00000004097   Supplier-00000004097]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addSupplier -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.DataDrivenScript@91161c7]" name="tearDown" is-config="true" duration-ms="212" started-at="2021-06-28T09:30:31Z" finished-at="2021-06-28T09:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DriverFactory.DataDrivenScript -->
+    </test> <!-- DataDriven -->
+    <test name="Hybrid" duration-ms="95121" started-at="2021-06-28T09:30:31Z" finished-at="2021-06-28T09:32:06Z">
+      <class name="DriverFactory.AppTest">
+        <test-method status="PASS" signature="kickStart()[pri:0, instance:DriverFactory.AppTest@14bf9759]" name="kickStart" duration-ms="95121" started-at="2021-06-28T09:30:31Z" finished-at="2021-06-28T09:32:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Samsung EDge8     Samsung EDge8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kickStart -->
+      </class> <!-- DriverFactory.AppTest -->
+    </test> <!-- Hybrid -->
+  </suite> <!-- Frameworks -->
+</testng-results>
